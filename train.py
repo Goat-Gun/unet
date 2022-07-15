@@ -15,7 +15,7 @@ print(data_train.keys())
 with open(dir_data+'/test.json', 'w') as f:
     json.dump(data_train, f)
 
-print(data_train)
+
 
 # 데이터 설정
 # data_root='dataset/'
